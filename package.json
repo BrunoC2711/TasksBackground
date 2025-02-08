@@ -1,0 +1,19 @@
+{
+  "name": "TasksBackground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "sucrase": "^3.35.0"
+  }
+}
